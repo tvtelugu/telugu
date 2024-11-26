@@ -1,0 +1,150 @@
+{
+  "functions": {
+    "api/*.php": {
+      "runtime": "vercel-php@0.7.1"
+    }
+  },
+  "routes": [    
+    {
+      "src": "/b-playlist",
+      "dest": "/api/b-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/b-play",
+      "dest": "/api/b-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/uitkkkT77pwe2lliaciuaUUcVVD9ak.m3u",
+      "dest": "/playlist/b1g_family_family.m3u",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },   
+    {
+      "src": "/f-playlist",
+      "dest": "/api/f-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/f-play",
+      "dest": "/api/f-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/fitkkkT77pwe2lliaciuaUUcVVD9ak.m3u",
+      "dest": "/playlist/filex_1313_1234.m3u",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/k-playlist",
+      "dest": "/api/k-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/k-play",
+      "dest": "/api/k-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/kitkkkT77pwe87uujethha3aUUcVVD9ak.m3u",
+      "dest": "/playlist/ktv_q3TrJFbKyq_awTvJxk2ct.m3u",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/s-playlist",
+      "dest": "/api/s-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/s-play",
+      "dest": "/api/s-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/starsat_tyuu&uuj27su.m3u",
+      "dest": "/playlist/starsat_0555_0555.m3u",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/x-playlist",
+      "dest": "/api/x-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/x-play",
+      "dest": "/api/x-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/j-playlist",
+      "dest": "/api/j-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/j-play",
+      "dest": "/api/j-play.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+           }
+    },
+    {
+      "src": "/tp-playlist",
+      "dest": "/api/tp-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/jass.key",
+      "dest": "/api/jass.key.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+           }
+    },
+    {
+      "src": "/h-playlist",
+      "dest": "/api/h-playlist.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    },
+    {
+      "src": "/manifest.mpd",
+      "dest": "/api/manifest.mpd.php",
+      "headers": {
+        "Cache-Control": "max-age=84000, public"
+      }
+    }
+  ],
+  "regions": ["bom1"]
+}
