@@ -3,7 +3,7 @@
 $serverAddress = $_SERVER['HTTP_HOST'] ?? 'default.server.address';
 
 // The original M3U playlist URL
-$playlist_url = "http://livetvbox.live:8080/get.php?username=99252&password=99252&type=m3u_plus";
+$playlist_url = "https://tvtplay.vercel.app/playlist/livetv.m3u";
 
 // Fetch the playlist content
 $playlist_content = file_get_contents($playlist_url);
