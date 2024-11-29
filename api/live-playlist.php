@@ -15,7 +15,7 @@ if ($playlist_content === false) {
 // Replace URLs in the playlist
 $modified_content = str_replace(
     "https://livetvbox.live:443/live/99252/99252/", 
-    "https://$serverAddress/live?id=", 
+    "https://$serverAddress/live-play?id=", 
     $playlist_content
 );
 
